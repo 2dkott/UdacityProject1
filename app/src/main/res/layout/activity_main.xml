@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.shareandbuy.malvina.project1.MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/deathstarneedsyou"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="20dp">
+
+        <ImageView
+            android:layout_width="20pt"
+            android:layout_height="20pt"
+            android:src="@drawable/deathstar"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="3dp"
+                android:layout_marginVertical="2dp"
+                android:text="Death Star II - Ultimate Empire Weapon"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="#000000"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="3dp"
+                android:text="New station - old revange"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="15dp">
+
+        <ImageView
+            android:layout_width="15pt"
+            android:layout_height="15pt"
+            android:src="@drawable/locationalt"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="3dp"
+                android:layout_marginVertical="2dp"
+                android:text="Rgn. Outer Rim Territories, Sec. Moddell sector \nSolar System Endor, Planet Endor"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginHorizontal="19dp">
+
+        <ImageView
+            android:layout_width="15pt"
+            android:layout_height="15pt"
+            android:src="@drawable/darthvader"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="3dp"
+                android:layout_marginVertical="2dp"
+                android:text="Benefits. Journey throughout the galaxy, free lunches, personal growth and master classes 'Unleash your Force'(Guest Star: our great leader Darth Vader)"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:textColor="#000000"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
