@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Project1</string>
+    <string name="address">2465 Latham St Mountain View, CA 94040</string>
+    <string name="email">help@udacity.com</string>
+    <string name="internet">udacity.com</string>
+    <string name="phone">+1(202) 555-0135</string>
 </resources>
